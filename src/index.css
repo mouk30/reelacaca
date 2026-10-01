@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #08090B;
+    --bg-surface: #0E1015;
+    --bg-elevated: #151820;
+    --border-hairline: rgba(255, 255, 255, 0.08);
+    --border-accent: rgba(212, 175, 55, 0.35);
+    --text-primary: #F5F3EE;
+    --text-secondary: #D6D4CE;
+    --text-muted: #8E9198;
+    --accent-gold: #D4AF37;
+    --accent-gold-soft: #E2C974;
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  .font-serif-luxury {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Subtle grain overlay for cinematic editorial depth */
+.grain-overlay {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.04) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.25);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

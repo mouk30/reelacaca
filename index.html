@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>릴게임 아카이브 | Reel Game Digital Archive — 역사와 구조적 해체</title>
+    <meta name="description" content="릴게임의 역사, 아케이드 릴 구조, RNG 난수 생성 원리와 6대 대표작(바다이야기, 야마토, 손오공, 황금성, 오션파라다이스, 알라딘)의 시스템 메커니즘을 객관적으로 분석한 2026 프리미엄 디지털 에디토리얼 아카이브." />
+    <link rel="canonical" href="https://reel-archive.example/" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta property="og:title" content="릴게임 아카이브 | Reel Game Digital Archive — 역사와 구조적 해체" />
+    <meta property="og:description" content="릴게임의 역사, 아케이드 릴 구조, RNG 난수 생성 원리와 6대 대표작의 시스템 메커니즘을 객관적으로 분석한 2026 프리미엄 디지털 에디토리얼 아카이브." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://reel-archive.example/" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="릴게임 아카이브 (Reel Game Archive)" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="릴게임 아카이브 | Reel Game Digital Archive" />
+    <meta name="twitter:description" content="릴게임의 역사와 아케이드 릴 메커니즘, 확률 구조를 분석한 에디토리얼 아카이브." />
+    
+    <!-- Typography: Syne, Plus Jakarta Sans, Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@500;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://reel-archive.example/#website",
+          "url": "https://reel-archive.example/",
+          "name": "릴게임 아카이브 | Reel Game Digital Archive",
+          "description": "릴게임의 역사, 아케이드 릴 구조, RNG 메커니즘을 객관적으로 분석한 에디토리얼 아카이브",
+          "inLanguage": "ko-KR"
+        },
+        {
+          "@type": "TechArticle",
+          "@id": "https://reel-archive.example/#article",
+          "headline": "릴게임이란 무엇인가: 아케이드 릴 메커니즘과 연출의 분리",
+          "description": "기계식 릴부터 비디오 릴까지의 변천사, RNG 난수 생성 원리와 연출의 수학적 분리 분석.",
+          "articleSection": "Digital Media & Game Architecture",
+          "inLanguage": "ko-KR",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Reel Game Archive Editorial Board"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://reel-archive.example/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "릴게임이란 정확히 어떤 게임 방식을 의미합니까?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "릴게임은 원통형 릴(또는 비디오 화면 속 가상 릴)이 회전하다가 정지했을 때, 심볼들의 가로·대각선 배열(페이라인)이 일치하는지 여부에 따라 결과를 산출하는 아케이드 회전식 게임의 총칭입니다. 초기에는 물리적 기계 톱니바퀴 릴로 구동되었으나, 이후 영상 디스플레이와 컴퓨터 알고리즘(RNG) 기반으로 진화했습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "릴이 회전하는 동안 플레이어가 정지 버튼을 누르면 결과에 영향을 줍니까?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "현대 릴게임 및 디지털 아케이드 시스템에서는 시작 레버나 버튼을 누른 1000분의 1초 찰나에 내부 RNG(난수생성기)에 의해 이미 수학적 결과가 확정됩니다. 화면에서 릴이 돌고 서서히 멈추는 과정은 시각적 엔터테인먼트 연출(Theatrical Presentation)에 불과하며, 버튼을 누르는 물리적 타이밍은 결과에 개입하지 못합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "한국 아케이드 역사에서 6대 릴게임이 차지하는 맥락은 무엇입니까?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2000년대 초중반 바다이야기, 야마토, 손오공, 황금성, 오션파라다이스, 알라딘은 한국 성인 아케이드 게임장을 중심으로 급속히 보급되었습니다. 당시 게임들은 예고 연출과 연속 당첨(연타) 기믹으로 대중적 충격을 주었으며, 이후 사행성 방지법 제정과 게임물관리위원회의 엄격한 규제 체계가 수립되는 사회문화적 계기가 되었습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "화려한 예고 연출(고래, 체리, 불꽃 등)은 당첨 확률을 올려줍니까?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "아닙니다. 예고 연출은 결과가 나온 뒤에 이를 시각적으로 포장하여 플레이어의 기대 심리를 극대화하기 위해 미리 프로그래밍된 연출 테이블에 따라 재생될 뿐입니다. 연출이 당첨 확률 자체를 변동시키는 것이 아니며, 연출과 당첨 확률은 엄격히 분리되어 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "이 아카이브 사이트의 목적은 무엇입니까?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "본 아카이브는 사행성 오락을 권장하거나 중개하는 것이 아니며, 한국 아케이드 게임 역사 속에서 큰 파장을 일으켰던 릴게임의 기계·알고리즘 구조, 사회문화적 변천사, 그리고 수학적 진실(RNG와 연출의 분리)을 객관적이고 학술적인 시각에서 기록·보존하기 위한 비영리 디지털 미디어 아카이브입니다."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#08090B] text-[#F5F3EE] antialiased selection:bg-[#D4AF37]/30 selection:text-[#F5F3EE]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

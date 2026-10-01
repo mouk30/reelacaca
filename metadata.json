@@ -1,0 +1,6 @@
+{
+  "name": "릴게임 아카이브 | Reel Game Digital Archive",
+  "description": "릴게임의 역사, 아케이드 릴 구조, RNG 메커니즘 및 6대 대표작을 객관적으로 분석한 2026 프리미엄 디지털 에디토리얼 아카이브.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
