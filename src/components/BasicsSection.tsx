@@ -10,7 +10,7 @@ export const BasicsSection: React.FC = () => {
           <div className="lg:col-span-4 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-white/[0.08] pb-10 lg:pb-0 lg:pr-12">
             <div>
               <div className="flex items-center gap-3 text-xs font-mono text-[#D4AF37] tracking-widest uppercase mb-4">
-                <span>01</span>
+                <span>02</span>
                 <span className="w-8 h-[1px] bg-[#D4AF37]/50" />
                 <span>THE BASICS</span>
               </div>

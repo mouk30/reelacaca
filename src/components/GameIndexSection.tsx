@@ -93,7 +93,7 @@ export const GameIndexSection: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-white/[0.08] pb-8 mb-12">
           <div>
             <div className="flex items-center gap-3 text-xs font-mono text-[#D4AF37] tracking-widest uppercase mb-3">
-              <span>02</span>
+              <span>01</span>
               <span className="w-8 h-[1px] bg-[#D4AF37]/50" />
               <span>EDITORIAL INDEX</span>
             </div>

@@ -20,8 +20,8 @@ export default function App() {
         {/* Full-Viewport Editorial Hero with 3D Reel Apparatus */}
         <HeroSection />
 
-        {/* Section 01: Editorial Deep-Dive on Reel Game Origins & Mechanics */}
-        <BasicsSection />
+        {/* Section 01: The 6 Iconic Games Editorial Index */}
+        <GameIndexSection />
 
         {/* Typographic Statement 01 */}
         <TypographicStatement
@@ -31,8 +31,8 @@ export default function App() {
           subtext="화면을 가르는 고래의 유영이나 파동포의 카운트다운은 당첨 확률을 높이는 것이 아니라, 이미 내부 RNG에서 확정된 결과를 시각적으로 극화하여 플레이어의 기대 심리를 지연시키는 연극적 프레젠테이션에 불과합니다."
         />
 
-        {/* Section 02: The 6 Iconic Games Editorial Index */}
-        <GameIndexSection />
+        {/* Section 02: Editorial Deep-Dive on Reel Game Origins & Mechanics */}
+        <BasicsSection />
 
         {/* Typographic Statement 02 */}
         <TypographicStatement

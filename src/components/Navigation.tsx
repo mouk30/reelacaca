@@ -8,8 +8,8 @@ export const Navigation: React.FC<NavigationProps> = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: '개념 해체', href: '#basics' },
     { label: '6대 명작 색인', href: '#game-index' },
+    { label: '개념 해체', href: '#basics' },
     { label: 'RNG 실험실', href: '#rng-lab' },
     { label: '비교 매트릭스', href: '#comparison' },
     { label: '용어 사전', href: '#glossary' },

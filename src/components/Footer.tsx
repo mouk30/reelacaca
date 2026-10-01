@@ -24,8 +24,8 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-3 space-y-2">
             <div className="text-[11px] text-[#D6D4CE] uppercase tracking-wider mb-3">색인 섹션 바로가기</div>
             <ul className="space-y-2 text-xs">
-              <li><a href="#basics" className="hover:text-[#F5F3EE] transition-colors">01. 릴게임의 기원과 본질</a></li>
-              <li><a href="#game-index" className="hover:text-[#F5F3EE] transition-colors">02. 6대 대표작 아카이브</a></li>
+              <li><a href="#game-index" className="hover:text-[#F5F3EE] transition-colors">01. 6대 대표작 아카이브</a></li>
+              <li><a href="#basics" className="hover:text-[#F5F3EE] transition-colors">02. 릴게임의 기원과 본질</a></li>
               <li><a href="#rng-lab" className="hover:text-[#F5F3EE] transition-colors">03. RNG 연출 분리 실험실</a></li>
               <li><a href="#comparison" className="hover:text-[#F5F3EE] transition-colors">04. 메커니즘 대조 분석표</a></li>
               <li><a href="#glossary" className="hover:text-[#F5F3EE] transition-colors">05. 릴게임 공학 용어 사전</a></li>
