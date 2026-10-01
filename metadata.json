@@ -1,6 +1,8 @@
 {
-  "name": "릴게임 아카이브 | Reel Game Digital Archive",
-  "description": "릴게임의 역사, 아케이드 릴 구조, RNG 메커니즘 및 6대 대표작을 객관적으로 분석한 2026 프리미엄 디지털 에디토리얼 아카이브.",
+  "name": "릴게임 아카이브 | 역사, 구조, RNG, 대표작 분석",
+  "description": "릴게임의 기원부터 아케이드 구조, RNG 메커니즘, 그리고 바다이야기와 황금성을 포함한 6대 대표작까지 완벽하게 분석한 2026 프리미엄 디지털 에디토리얼 아카이브입니다. 기계식 슬롯에서 디지털 에뮬레이션으로 이어지는 역사적 진화 과정과 공정한 확률 제어의 핵심인 난수 생성기(RNG)의 원리를 객관적이고 깊이 있게 조명합니다. 아케이드 릴게임의 구조적 가치와 역사적 맥락을 한눈에 확인해 보세요.\n\n해시태그: #릴게임 #아케이드게임 #RNG메커니즘 #바다이야기 #황금성 #디지털에디토리얼 #슬롯머신역사 #게임아키텍처",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
